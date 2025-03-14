@@ -6,11 +6,13 @@
   --accent-color: #bb86fc;
   --heading-font: "Poppins", sans-serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   color: var(--text-color);
   font-family: var(--heading-font);
   line-height: 1.6;
@@ -27,7 +29,7 @@ h6 {
 }
 
 h1 {
-  font-size: 3rem;
+  /* font-size: 3rem; */
   color: var(--accent-color);
 }
 
